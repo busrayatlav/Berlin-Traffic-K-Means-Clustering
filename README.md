@@ -21,6 +21,7 @@ Clustering traffic data helps identify patterns and trends in vehicle behavior, 
 Dataset
 
 The dataset includes the following features:
+
 •	vehicle_count_per_hour: Total vehicles per hour.
 •	avg_speed_all_vehicles_kmh: Average speed of all vehicles.
 •	car_count_per_hour: Total cars per hour.
