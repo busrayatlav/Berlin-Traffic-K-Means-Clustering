@@ -12,12 +12,14 @@ Table of Contents
 7.	License
  
 Project Overview
+
 Clustering traffic data helps identify patterns and trends in vehicle behavior, enabling better traffic management and urban planning. This project:
 •	Utilizes K-Means Clustering to group traffic data into clusters.
 •	Determines the optimal number of clusters using the Elbow Method.
 •	Visualizes clustering results for better interpretability.
  
 Dataset
+
 The dataset includes the following features:
 •	vehicle_count_per_hour: Total vehicles per hour.
 •	avg_speed_all_vehicles_kmh: Average speed of all vehicles.
