@@ -14,19 +14,19 @@ Table of Contents
 Project Overview
 
 Clustering traffic data helps identify patterns and trends in vehicle behavior, enabling better traffic management and urban planning. This project:
-•	Utilizes K-Means Clustering to group traffic data into clusters.
-•	Determines the optimal number of clusters using the Elbow Method.
-•	Visualizes clustering results for better interpretability.
+-	Utilizes K-Means Clustering to group traffic data into clusters.
+-	Determines the optimal number of clusters using the Elbow Method.
+-	Visualizes clustering results for better interpretability.
  
 Dataset
 
 The dataset includes the following features:
-•	vehicle_count_per_hour: Total vehicles per hour.
-•	avg_speed_all_vehicles_kmh: Average speed of all vehicles.
-•	car_count_per_hour: Total cars per hour.
-•	avg_speed_cars_kmh: Average speed of cars.
-•	truck_count_per_hour: Total trucks per hour.
-•	avg_speed_trucks_kmh: Average speed of trucks.
+-	vehicle_count_per_hour: Total vehicles per hour.
+-	avg_speed_all_vehicles_kmh: Average speed of all vehicles.
+-	car_count_per_hour: Total cars per hour.
+-	avg_speed_cars_kmh: Average speed of cars.
+-	truck_count_per_hour: Total trucks per hour.
+-	avg_speed_trucks_kmh: Average speed of trucks.
  
 Installation
 1.	Clone the repository:
@@ -43,26 +43,22 @@ Usage
 2.	Run the Script: Execute the script to cluster the data and generate visualizations:
 python berlin_traffic_kmeans.py
 3.	Outputs:
-o	Scatter Plot: Data before clustering.
-o	Elbow Method: Helps determine the optimal number of clusters.
-o	Clustered Data Visualization: Displays data points grouped into clusters.
+   -	Scatter Plot: Data before clustering.
+   -	Elbow Method: Helps determine the optimal number of clusters.
+   -	Clustered Data Visualization: Displays data points grouped into clusters.
  
 Results
-1.	Optimal Cluster Count:
-o	Determined using the Elbow Method, where WCSS (Within-Cluster Sum of Squares) is plotted for different cluster counts.
-2.	Clustered Data:
-o	Data points are grouped into 3 clusters (or any chosen number of clusters), with each point labeled by its cluster.
+1.	Optimal Cluster Count: Determined using the Elbow Method, where WCSS (Within-Cluster Sum of Squares) is plotted for different cluster counts.
+2.	Clustered Data: Data points are grouped into 3 clusters (or any chosen number of clusters), with each point labeled by its cluster.
 3.	Visualizations:
-o	Before Clustering:
-	Shows the distribution of traffic speed vs. vehicle count.
-o	Clustered Data:
-	Highlights grouped data points with distinct colors for each cluster.
+   - Before Clustering: Shows the distribution of traffic speed vs. vehicle count.
+   - Clustered Data: Highlights grouped data points with distinct colors for each cluster.
  
 Technologies Used
-•	Python: Programming language.
-•	Pandas: For data manipulation.
-•	scikit-learn: For scaling and K-Means clustering.
-•	Matplotlib: For visualizations.
+-	Python: Programming language.
+-	Pandas: For data manipulation.
+-	scikit-learn: For scaling and K-Means clustering.
+-	Matplotlib: For visualizations.
  
 License
 This project is licensed under the MIT License.
